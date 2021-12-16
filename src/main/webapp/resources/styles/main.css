@@ -1,0 +1,154 @@
+body {
+    font-size: 20px;
+    min-width: 800px;
+    background-image: url("../resources/imgs/gradient.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.label {
+    font-family: Comic Sans MS, Geneva, Arial, Helvetica, sans-serif !important;
+    color: #000;
+    font-size: 25pt;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    float: top;
+    top: 5%;
+}
+
+.content {
+    padding: 0 0 20px;
+    vertical-align: top;
+    align-content: center;
+}
+
+#graph {
+    float: left;
+    width: 35%;
+    align-content: center;
+}
+
+.graph_canvas {
+    width: 100%;
+}
+
+#canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#values {
+    float: right;
+    width: 65%;
+}
+
+#form_table {
+    width: 100%;
+    text-align: center;
+    font-family: Comic Sans MS, Geneva, Arial, Helvetica, sans-serif !important;
+}
+
+.small_label {
+    color: #000;
+    font-size: 15pt;
+    margin: 1%;
+    padding: 1%;
+    float: top;
+    top: 5%;
+}
+
+.x-group {
+    padding: 5px;
+    color: #000;
+    font-size: 12pt !important;
+    font-family: Comic Sans MS, Geneva, Arial, Helvetica, sans-serif !important;
+}
+
+body .ui-commandlink {
+    color: #000;
+}
+
+body .ui-commandlink:hover {
+    color: #F00;
+}
+
+.form {
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    opacity: 70%;
+    outline: none;
+    width: 65%;
+    padding: 3px;
+    margin: fill;
+    color: #000000;
+    font-size: 15px;
+    font-family: Comic Sans MS, Geneva, Arial, Helvetica, sans-serif !important;
+    text-align: center;
+}
+
+.form:hover {
+    opacity: 100%;
+}
+
+.button {
+    margin-top: 10px !important;
+    align-content: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: Comic Sans MS, "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-size: 23px !important;
+    font-weight: 500;
+    padding: 10px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+body .ui-button {
+    margin: 10px;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.startButton {
+    margin: 20px !important;
+}
+
+#message {
+    font-size: 18pt;
+    font-weight: bold;
+    background-color: #F00;
+    color: #000;
+    text-align: center;
+}
+
+#resultsTable {
+    grid-area: tbl;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    color: #000000;
+}
+
+.table_header:hover {
+    background-color: #c8b5e9;
+}
