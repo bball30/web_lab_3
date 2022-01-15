@@ -13,8 +13,8 @@ import java.util.Properties;
 
 public class DatabaseManager {
     private String DB_URL = "jdbc:postgresql://localhost:3455/studs";
-    private String USER = "s311711";
-    private String PASS = "zwz536";
+    private String USER = "";
+    private String PASS = "";
     private String JDBC_DRIVER = "org.postgresql.Driver";
     private Connection connection;
 
